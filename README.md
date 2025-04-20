@@ -1,23 +1,41 @@
 movie-recommendation-system/
 
 ├── src/                    # Kaynak kodlar
+
 │   ├── main.py            # FastAPI uygulaması
+
 │   ├── train_model.py     # Model eğitimi
+
 │   └── generate_dataset.py # Veri seti oluşturma
+
 ├── data/                   # Veri dosyaları
+
 │   ├── raw/               # Ham veriler
+
 │   │   ├── users.csv
+
 │   │   ├── movies.csv
+
 │   │   └── interactions.csv
+
 │   └── processed/         # İşlenmiş veriler
+
 │       ├── kmeans_model.pkl
+
 │       ├── scaler.pkl
+
 │       └── user_clusters.npy
+
 ├── outputs/               # Çıktılar ve görseller
+
 │   ├── elbow_plot.png
+
 │   └── cluster_visualization.png
+
 ├── run.py                # Uygulama başlatma
+
 ├── requirements.txt      # Bağımlılıklar
+
 └── .gitignore           # Git yoksayma dosyası
 
 # Film Öneri Sistemi
