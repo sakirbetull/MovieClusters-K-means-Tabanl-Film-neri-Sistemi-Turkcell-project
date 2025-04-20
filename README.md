@@ -1,4 +1,5 @@
 movie-recommendation-system/
+
 ├── src/                    # Kaynak kodlar
 │   ├── main.py            # FastAPI uygulaması
 │   ├── train_model.py     # Model eğitimi
