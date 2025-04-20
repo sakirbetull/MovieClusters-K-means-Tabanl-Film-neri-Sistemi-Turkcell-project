@@ -31,11 +31,5 @@ ENV/
 *.swp
 *.swo
 
-# Data files
-data/raw/*.csv
-data/processed/*.pkl
-data/processed/*.npy
-outputs/*.png
-
 # Logs
 *.log 
